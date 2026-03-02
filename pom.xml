@@ -11,6 +11,7 @@
 	<groupId>com.libmgmt</groupId>
 	<artifactId>libmgmt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>libmgmt</name>
 	<description>Library Management</description>
 	<url/>
@@ -20,6 +21,13 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>UserService</module>
+		<module>BorrowingService</module>
+		<module>NotificationService</module>
+		<module>PaymentService</module>
+		<module>InventoryService</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
