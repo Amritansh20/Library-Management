@@ -1,0 +1,15 @@
+package com.libmgmt.inventory.event;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class BorrowingEvent {
+    private String bookItemId;
+    private String bookId;
+    private String memberId;
+    private String transactionType;
+}

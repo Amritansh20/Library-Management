@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost:27017/libmgmt_users?authSource=admin
+  kafka:
+    bootstrap-servers: localhost:9092
